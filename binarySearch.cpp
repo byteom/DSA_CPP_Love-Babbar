@@ -63,5 +63,5 @@ int main() {
     else {
         // Output the index of the target element
         cout << "target found at index :-" << targetFound;
-    }
+    }    
 }

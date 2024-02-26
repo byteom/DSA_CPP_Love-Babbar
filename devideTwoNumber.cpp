@@ -18,7 +18,7 @@ int Quotients(int divisor, int dividend) {
     // Perform binary search to find the largest quotient
     while (start <= end) {
         // If the current mid value multiplied by the divisor is less than or equal to the dividend
-        if (mid * divisor <= dividend) {
+        if ((mid * divisor) <= dividend) {
             // Update the largest quotient found so far
             ans = mid;
 
