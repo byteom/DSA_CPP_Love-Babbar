@@ -39,4 +39,5 @@ int main(){
     int size=14;
     int ans = solve(arr,size);
     cout<<"Odd occuring element is : "<<arr[ans]<<endl;
+    cout<<"Odd occuring element index  is : "<<ans<<endl;
 }
