@@ -28,10 +28,16 @@
 //     return 0;
 // }
 
-#include<iostream>
-using namespace std;
-int main(){
-    char ch[100];
-    cin>> ch;
-    cout<<ch;
-}
+//examle
+
+//taking input after space
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     char ch[100];
+//     cin.getline(ch,99); // it will take all character until it get a new line  );
+//     cout<<ch;
+// }
+
+
+
