@@ -18,7 +18,7 @@ void reverseArrayChar(char name[]) { // Change return type to void
     int i = 0;
     int j = length - 1;
     while (i <= j) {
-        swap(name[i], name[j]); // Use std::swap from algorithm header
+        std::swap(name[i], name[j]); // Use std::swap from algorithm header
         i++;
         j--;
     }
