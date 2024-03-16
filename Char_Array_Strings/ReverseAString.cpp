@@ -30,8 +30,9 @@ int main() {
     cin.getline(name, 40);
 
     cout << "Length is " << getLength(name) << endl;  // Using linear search
+    cout <<"without reverse : "<<name<<endl;
     reverseArrayChar(name); // Reverse the array of characters
-    cout << "Reversed Name is " << name << endl; // Print the reversed name
+    cout << "Reversed Name is : " << name << endl; // Print the reversed name
     cout << "Length is " << strlen(name) << endl; // Using strlen function
     return 0;
 }
