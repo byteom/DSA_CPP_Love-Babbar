@@ -33,3 +33,6 @@ int main(){
     return 0;
 
 }
+
+// Time complexity is O(n) where n is length of string because we are using linear search to compare characters from both ends of the string.
+// Space complexity is O(1) because we are not using any extra space. We just use some variables to point to the start and end of the string.
