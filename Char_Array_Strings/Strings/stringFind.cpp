@@ -2,6 +2,6 @@
 #include<string>
 using namespace std;
 int main(){
-    string str="hello";
-    cout<<str.find("lliii");
+    string str="this is a string";   
+    cout<<str.replace("lliii");
 }
