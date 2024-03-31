@@ -1,0 +1,21 @@
+name: Auto Commit
+
+on:
+  push:
+    branches:
+      - main  # Adjust to your main branch name
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Auto commit
+        run: |
+          git config --global user.email "123omsinghpipariya@gmail.com"
+          git config --global user.name "byteom"
+          git add .
+          git commit -m "Auto commit"
+          git push
