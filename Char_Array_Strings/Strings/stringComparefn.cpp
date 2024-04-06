@@ -20,9 +20,9 @@ int main(){
 
     bool result =compareString(a,b);
     if(result==true){
-        cout<<"truee";
+        cout<<"true";
     }else{
-        cout<<"falsee";
+        cout<<"false";
     }
 
     return 0;
