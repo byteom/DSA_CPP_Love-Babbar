@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     string str;
    // cin>>str;
+   // cout<<str;
    getline(cin, str);
     cout<<str;
     cout<<"length :"<<str.length()<<endl; // length of the string
@@ -13,6 +14,6 @@ int main(){
     //cout<<str;
     str.pop_back();
    // cout<<str;
-    cout<<str.substr(0,6)<<endl;  // print a substring from index 0 to
+    cout<<str.substr(0,6)<<endl;  // print a substring from index 0 to 
     return 0;
 }
