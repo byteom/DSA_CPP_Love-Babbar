@@ -6,13 +6,13 @@ int main(){
    // cin>>str;
    getline(cin, str);
     cout<<str;
-    cout<<"length :"<<str.length()<<endl; // length of the string
+    cout<<"length :"<<str.length(); // length of the string
     cout<<"is empty :"<<str.empty(); // check if the string is empty
     cout<<"is not empty :"<<!str.empty()<<endl; // check if the string is not empty
     str.push_back('A');
     //cout<<str;
     str.pop_back();
    // cout<<str;
-    cout<<str.substr(0,6)<<endl;  // print a substring from index 0 
-    return 0;
+    cout<<str.substr(0,6)<<endl;   
+    return (0);
 }
